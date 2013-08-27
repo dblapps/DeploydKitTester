@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2BDEFE17CCF0990095B4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDEFD17CCF0990095B4AC /* UIKit.framework */; };
+		4C2BDF0017CCF0990095B4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDEFF17CCF0990095B4AC /* Foundation.framework */; };
+		4C2BDF0217CCF0990095B4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDF0117CCF0990095B4AC /* CoreGraphics.framework */; };
+		4C2BDF0817CCF0990095B4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BDF0617CCF0990095B4AC /* InfoPlist.strings */; };
+		4C2BDF0A17CCF0990095B4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF0917CCF0990095B4AC /* main.m */; };
+		4C2BDF0E17CCF0990095B4AC /* DKTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF0D17CCF0990095B4AC /* DKTAppDelegate.m */; };
+		4C2BDF1017CCF0990095B4AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BDF0F17CCF0990095B4AC /* Default.png */; };
+		4C2BDF1217CCF0990095B4AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BDF1117CCF0990095B4AC /* Default@2x.png */; };
+		4C2BDF1417CCF0990095B4AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BDF1317CCF0990095B4AC /* Default-568h@2x.png */; };
+		4C2BDF1717CCF0990095B4AC /* DKTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF1617CCF0990095B4AC /* DKTViewController.m */; };
+		4C2BDF1A17CCF0990095B4AC /* DKTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BDF1817CCF0990095B4AC /* DKTViewController.xib */; };
+		4C2BDF3517CCF14C0095B4AC /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF2317CCF14C0095B4AC /* AFHTTPClient.m */; };
+		4C2BDF3617CCF14C0095B4AC /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF2517CCF14C0095B4AC /* AFHTTPRequestOperation.m */; };
+		4C2BDF3717CCF14C0095B4AC /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF2717CCF14C0095B4AC /* AFImageRequestOperation.m */; };
+		4C2BDF3817CCF14C0095B4AC /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF2917CCF14C0095B4AC /* AFJSONRequestOperation.m */; };
+		4C2BDF3917CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF2B17CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.m */; };
+		4C2BDF3A17CCF14C0095B4AC /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF2E17CCF14C0095B4AC /* AFPropertyListRequestOperation.m */; };
+		4C2BDF3B17CCF14C0095B4AC /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF3017CCF14C0095B4AC /* AFURLConnectionOperation.m */; };
+		4C2BDF3C17CCF14C0095B4AC /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF3217CCF14C0095B4AC /* AFXMLRequestOperation.m */; };
+		4C2BDF3D17CCF14C0095B4AC /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BDF3417CCF14C0095B4AC /* UIImageView+AFNetworking.m */; };
+		4C2BDF4A17CCF2DA0095B4AC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDF4917CCF2DA0095B4AC /* MobileCoreServices.framework */; };
+		4C2BDF4C17CCF2E00095B4AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDF4B17CCF2E00095B4AC /* SystemConfiguration.framework */; };
+		4C2BDF4D17CCF2E50095B4AC /* libDeploydKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDF4517CCF1590095B4AC /* libDeploydKit.a */; };
+		4C2BDF4F17CCF4E00095B4AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BDF4E17CCF4E00095B4AC /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2BDF4417CCF1590095B4AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BDF3E17CCF1590095B4AC /* DeploydKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC03845D14F68EA1000DADD6;
+			remoteInfo = DeploydKit;
+		};
+		4C2BDF4617CCF1590095B4AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2BDF3E17CCF1590095B4AC /* DeploydKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC03846D14F68EA1000DADD6;
+			remoteInfo = DeploydKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C2BDEFA17CCF0990095B4AC /* DeploydKitTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeploydKitTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2BDEFD17CCF0990095B4AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C2BDEFF17CCF0990095B4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C2BDF0117CCF0990095B4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C2BDF0517CCF0990095B4AC /* DeploydKitTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeploydKitTester-Info.plist"; sourceTree = "<group>"; };
+		4C2BDF0717CCF0990095B4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C2BDF0917CCF0990095B4AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C2BDF0B17CCF0990095B4AC /* DeploydKitTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeploydKitTester-Prefix.pch"; sourceTree = "<group>"; };
+		4C2BDF0C17CCF0990095B4AC /* DKTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTAppDelegate.h; sourceTree = "<group>"; };
+		4C2BDF0D17CCF0990095B4AC /* DKTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTAppDelegate.m; sourceTree = "<group>"; };
+		4C2BDF0F17CCF0990095B4AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4C2BDF1117CCF0990095B4AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4C2BDF1317CCF0990095B4AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C2BDF1517CCF0990095B4AC /* DKTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTViewController.h; sourceTree = "<group>"; };
+		4C2BDF1617CCF0990095B4AC /* DKTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTViewController.m; sourceTree = "<group>"; };
+		4C2BDF1917CCF0990095B4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DKTViewController.xib; sourceTree = "<group>"; };
+		4C2BDF2217CCF14C0095B4AC /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		4C2BDF2317CCF14C0095B4AC /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		4C2BDF2417CCF14C0095B4AC /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4C2BDF2517CCF14C0095B4AC /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4C2BDF2617CCF14C0095B4AC /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		4C2BDF2717CCF14C0095B4AC /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		4C2BDF2817CCF14C0095B4AC /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		4C2BDF2917CCF14C0095B4AC /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		4C2BDF2A17CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		4C2BDF2B17CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		4C2BDF2C17CCF14C0095B4AC /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		4C2BDF2D17CCF14C0095B4AC /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		4C2BDF2E17CCF14C0095B4AC /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		4C2BDF2F17CCF14C0095B4AC /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4C2BDF3017CCF14C0095B4AC /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4C2BDF3117CCF14C0095B4AC /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		4C2BDF3217CCF14C0095B4AC /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		4C2BDF3317CCF14C0095B4AC /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4C2BDF3417CCF14C0095B4AC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		4C2BDF3E17CCF1590095B4AC /* DeploydKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DeploydKit.xcodeproj; path = ../3rdParty/DeploydKit/DeploydKit.xcodeproj; sourceTree = "<group>"; };
+		4C2BDF4917CCF2DA0095B4AC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4C2BDF4B17CCF2E00095B4AC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4C2BDF4E17CCF4E00095B4AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2BDEF717CCF0990095B4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BDF4F17CCF4E00095B4AC /* Security.framework in Frameworks */,
+				4C2BDF4D17CCF2E50095B4AC /* libDeploydKit.a in Frameworks */,
+				4C2BDF4C17CCF2E00095B4AC /* SystemConfiguration.framework in Frameworks */,
+				4C2BDF4A17CCF2DA0095B4AC /* MobileCoreServices.framework in Frameworks */,
+				4C2BDEFE17CCF0990095B4AC /* UIKit.framework in Frameworks */,
+				4C2BDF0017CCF0990095B4AC /* Foundation.framework in Frameworks */,
+				4C2BDF0217CCF0990095B4AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2BDEF117CCF0990095B4AC = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF2017CCF1270095B4AC /* 3rdParty */,
+				4C2BDF0317CCF0990095B4AC /* DeploydKitTester */,
+				4C2BDEFC17CCF0990095B4AC /* Frameworks */,
+				4C2BDEFB17CCF0990095B4AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2BDEFB17CCF0990095B4AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDEFA17CCF0990095B4AC /* DeploydKitTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2BDEFC17CCF0990095B4AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF4E17CCF4E00095B4AC /* Security.framework */,
+				4C2BDF4B17CCF2E00095B4AC /* SystemConfiguration.framework */,
+				4C2BDF4917CCF2DA0095B4AC /* MobileCoreServices.framework */,
+				4C2BDEFD17CCF0990095B4AC /* UIKit.framework */,
+				4C2BDEFF17CCF0990095B4AC /* Foundation.framework */,
+				4C2BDF0117CCF0990095B4AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C2BDF0317CCF0990095B4AC /* DeploydKitTester */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF0C17CCF0990095B4AC /* DKTAppDelegate.h */,
+				4C2BDF0D17CCF0990095B4AC /* DKTAppDelegate.m */,
+				4C2BDF1517CCF0990095B4AC /* DKTViewController.h */,
+				4C2BDF1617CCF0990095B4AC /* DKTViewController.m */,
+				4C2BDF1817CCF0990095B4AC /* DKTViewController.xib */,
+				4C2BDF0417CCF0990095B4AC /* Supporting Files */,
+			);
+			path = DeploydKitTester;
+			sourceTree = "<group>";
+		};
+		4C2BDF0417CCF0990095B4AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF0517CCF0990095B4AC /* DeploydKitTester-Info.plist */,
+				4C2BDF0617CCF0990095B4AC /* InfoPlist.strings */,
+				4C2BDF0917CCF0990095B4AC /* main.m */,
+				4C2BDF0B17CCF0990095B4AC /* DeploydKitTester-Prefix.pch */,
+				4C2BDF0F17CCF0990095B4AC /* Default.png */,
+				4C2BDF1117CCF0990095B4AC /* Default@2x.png */,
+				4C2BDF1317CCF0990095B4AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C2BDF2017CCF1270095B4AC /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF2117CCF14C0095B4AC /* AFNetworking */,
+				4C2BDF3E17CCF1590095B4AC /* DeploydKit.xcodeproj */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		4C2BDF2117CCF14C0095B4AC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF2217CCF14C0095B4AC /* AFHTTPClient.h */,
+				4C2BDF2317CCF14C0095B4AC /* AFHTTPClient.m */,
+				4C2BDF2417CCF14C0095B4AC /* AFHTTPRequestOperation.h */,
+				4C2BDF2517CCF14C0095B4AC /* AFHTTPRequestOperation.m */,
+				4C2BDF2617CCF14C0095B4AC /* AFImageRequestOperation.h */,
+				4C2BDF2717CCF14C0095B4AC /* AFImageRequestOperation.m */,
+				4C2BDF2817CCF14C0095B4AC /* AFJSONRequestOperation.h */,
+				4C2BDF2917CCF14C0095B4AC /* AFJSONRequestOperation.m */,
+				4C2BDF2A17CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.h */,
+				4C2BDF2B17CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.m */,
+				4C2BDF2C17CCF14C0095B4AC /* AFNetworking.h */,
+				4C2BDF2D17CCF14C0095B4AC /* AFPropertyListRequestOperation.h */,
+				4C2BDF2E17CCF14C0095B4AC /* AFPropertyListRequestOperation.m */,
+				4C2BDF2F17CCF14C0095B4AC /* AFURLConnectionOperation.h */,
+				4C2BDF3017CCF14C0095B4AC /* AFURLConnectionOperation.m */,
+				4C2BDF3117CCF14C0095B4AC /* AFXMLRequestOperation.h */,
+				4C2BDF3217CCF14C0095B4AC /* AFXMLRequestOperation.m */,
+				4C2BDF3317CCF14C0095B4AC /* UIImageView+AFNetworking.h */,
+				4C2BDF3417CCF14C0095B4AC /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = ../3rdParty/AFNetworking/AFNetworking;
+			sourceTree = "<group>";
+		};
+		4C2BDF3F17CCF1590095B4AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2BDF4517CCF1590095B4AC /* libDeploydKit.a */,
+				4C2BDF4717CCF1590095B4AC /* DeploydKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2BDEF917CCF0990095B4AC /* DeploydKitTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2BDF1D17CCF0990095B4AC /* Build configuration list for PBXNativeTarget "DeploydKitTester" */;
+			buildPhases = (
+				4C2BDEF617CCF0990095B4AC /* Sources */,
+				4C2BDEF717CCF0990095B4AC /* Frameworks */,
+				4C2BDEF817CCF0990095B4AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeploydKitTester;
+			productName = DeploydKitTester;
+			productReference = 4C2BDEFA17CCF0990095B4AC /* DeploydKitTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2BDEF217CCF0990095B4AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DKT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Double Apps Inc.";
+			};
+			buildConfigurationList = 4C2BDEF517CCF0990095B4AC /* Build configuration list for PBXProject "DeploydKitTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C2BDEF117CCF0990095B4AC;
+			productRefGroup = 4C2BDEFB17CCF0990095B4AC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C2BDF3F17CCF1590095B4AC /* Products */;
+					ProjectRef = 4C2BDF3E17CCF1590095B4AC /* DeploydKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C2BDEF917CCF0990095B4AC /* DeploydKitTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C2BDF4517CCF1590095B4AC /* libDeploydKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDeploydKit.a;
+			remoteRef = 4C2BDF4417CCF1590095B4AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4C2BDF4717CCF1590095B4AC /* DeploydKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DeploydKitTests.octest;
+			remoteRef = 4C2BDF4617CCF1590095B4AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2BDEF817CCF0990095B4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BDF0817CCF0990095B4AC /* InfoPlist.strings in Resources */,
+				4C2BDF1017CCF0990095B4AC /* Default.png in Resources */,
+				4C2BDF1217CCF0990095B4AC /* Default@2x.png in Resources */,
+				4C2BDF1417CCF0990095B4AC /* Default-568h@2x.png in Resources */,
+				4C2BDF1A17CCF0990095B4AC /* DKTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2BDEF617CCF0990095B4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2BDF0A17CCF0990095B4AC /* main.m in Sources */,
+				4C2BDF0E17CCF0990095B4AC /* DKTAppDelegate.m in Sources */,
+				4C2BDF1717CCF0990095B4AC /* DKTViewController.m in Sources */,
+				4C2BDF3517CCF14C0095B4AC /* AFHTTPClient.m in Sources */,
+				4C2BDF3617CCF14C0095B4AC /* AFHTTPRequestOperation.m in Sources */,
+				4C2BDF3717CCF14C0095B4AC /* AFImageRequestOperation.m in Sources */,
+				4C2BDF3817CCF14C0095B4AC /* AFJSONRequestOperation.m in Sources */,
+				4C2BDF3917CCF14C0095B4AC /* AFNetworkActivityIndicatorManager.m in Sources */,
+				4C2BDF3A17CCF14C0095B4AC /* AFPropertyListRequestOperation.m in Sources */,
+				4C2BDF3B17CCF14C0095B4AC /* AFURLConnectionOperation.m in Sources */,
+				4C2BDF3C17CCF14C0095B4AC /* AFXMLRequestOperation.m in Sources */,
+				4C2BDF3D17CCF14C0095B4AC /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C2BDF0617CCF0990095B4AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2BDF0717CCF0990095B4AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C2BDF1817CCF0990095B4AC /* DKTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2BDF1917CCF0990095B4AC /* en */,
+			);
+			name = DKTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2BDF1B17CCF0990095B4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C2BDF1C17CCF0990095B4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2BDF1E17CCF0990095B4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeploydKitTester/DeploydKitTester-Prefix.pch";
+				INFOPLIST_FILE = "DeploydKitTester/DeploydKitTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C2BDF1F17CCF0990095B4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeploydKitTester/DeploydKitTester-Prefix.pch";
+				INFOPLIST_FILE = "DeploydKitTester/DeploydKitTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2BDEF517CCF0990095B4AC /* Build configuration list for PBXProject "DeploydKitTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BDF1B17CCF0990095B4AC /* Debug */,
+				4C2BDF1C17CCF0990095B4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2BDF1D17CCF0990095B4AC /* Build configuration list for PBXNativeTarget "DeploydKitTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2BDF1E17CCF0990095B4AC /* Debug */,
+				4C2BDF1F17CCF0990095B4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2BDEF217CCF0990095B4AC /* Project object */;
+}

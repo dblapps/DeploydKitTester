@@ -1,0 +1,6 @@
+[submodule "3rdParty/AFNetworking"]
+	path = 3rdParty/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "3rdParty/DeploydKit"]
+	path = 3rdParty/DeploydKit
+	url = https://github.com/dblapps/DeploydKit.git
